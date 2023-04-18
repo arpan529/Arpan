@@ -6,5 +6,8 @@
 		{
 			"path": "../temp"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Arpan"
+	}
 }

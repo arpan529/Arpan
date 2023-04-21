@@ -175,5 +175,34 @@ header
         font-size: 20px;
         cursor: pointer;
       }
+      .slider-container {
+        width: 300px;
+        height: 50px;
+        overflow: hidden;
+      }
       
+      .slider-text {
+        width: 900px;
+        animation: slide 10s infinite;
+      }
+      
+      .slider-text p {
+        display: inline-block;
+        width: 300px;
+      }
+      
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        33.33% {
+          transform: translateX(-300px);
+        }
+        66.66% {
+          transform: translateX(-600px);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
       
